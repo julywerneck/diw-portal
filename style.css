@@ -6,10 +6,13 @@
 
 .title{
     color: white;
-    text-align: center;
+    text-align: left;
+    font-size:xx-large;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin: 0;
+    padding-left: 150px;
+    margin: 100;
+    
 }
 
 .fonte{
@@ -19,17 +22,23 @@
 .nav-link{
     color: white !important;
     font-weight: 500;
+    
 }
 
 .utavaliacoes{
     height: 12vh;
     display: flex;
     align-items: center;
+    
 }
 
 .texto{
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding: 20px;
+    background: rgba(235, 7, 7, 0);
+    border: 2px solid black;
+    color:  black;
+    justify-content: space-around;
+    width: 50%;
 }
 
 .dds{
@@ -37,6 +46,7 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
+    
 }
 
 .avaliacoes{
@@ -53,17 +63,24 @@
     display: flex;
     width: 200px;
     height: 200px;
+    
 }
 
 .texto{
     width: 100%;
     font-size: 14pt;
     text-align: justify;
+    
 }
 
 .descricao{
     padding-top: 20px;
     width: 100%;
+    padding: 20px;
+    background: rgba(235, 7, 7, 0);
+    border: 2px solid black;
+    color:  black;
+    
 }
 
 .texto-descricao{
@@ -72,6 +89,7 @@
 
 .bloco-texto{
     padding-top: 10px;
+    
 }
 
 #carrossel{
@@ -82,6 +100,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    
+    
 }
 
 .grid{
@@ -89,31 +109,40 @@
     grid-template-columns: 2fr 1fr;
     column-gap: 20px;
     padding-bottom: 30px;
+    
+    
 }
 
 .item{
     padding: 20px;
+    
 }
 
 .item-a{
     grid-column-start: 1;
+    padding: 10px;
+    background: rgba(235, 7, 7, 0);
+    border: 2px solid black;
+    color:  black;
+    
 }
 
 .item-b{
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
 }
 
 .item-c{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .icones{
-    display: flex;
+    display:grid;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 .videoWrapper{
@@ -139,14 +168,15 @@
 }
 
 .interviews{
-    background-image: linear-gradient(to bottom right, #d62b2b, #e7d638);
-    color: white;
+    background-color:  #e7d638;
+    color: black;
     width: 100%;
 }
 
 .data{
     padding-left: 10px;
     display: inline;
+    
 }
 
 .header__logo{
@@ -170,8 +200,9 @@
     align-items: center;
     justify-content: space-around;
     display: flex;
-    background-color:#1C1C1C;
+    background-color:#1c1c1c;
     height: 60px;
+    
 }
 
 .header__menu a{
@@ -206,6 +237,7 @@
     outline: none;
     border: none;
     background-color: none;
+    
 }
 
 ::-webkit-input-placeholder{
@@ -236,6 +268,7 @@
     margin: 0 5rem 4rem 5rem;
     padding: 0 80px 0 80px;
     display: flex;
+    
 }
 
 .carousel-indicators{
@@ -243,19 +276,20 @@
 }
 
 .carregar{
-    text-align: right;
+    text-align: center;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .carregar-1{
-    text-align: right;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 40px;
+    
 }
 
 .carregar-2{
-    text-align: right;
+    text-align: center;
     padding-bottom: 30px;
 }
 
