@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.fonte{
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+
+.utavaliacoes{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.dds{
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.avaliacoes{
+    justify-content: space-around;
+    display: flex;
+}
+
+.avaliacoes img{
+    width: 60px;
+    height: 60px;
+}
+
+.col-4{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.texto{
+    width: 100%;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.descricao{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.texto-descricao{
+    margin-bottom: 5px;
+}
+
+.bloco-texto{
+    padding-top: 10px;
+}
+
+#carrossel{
+    background-image: linear-gradient(to bottom right, #d62b2b, #e7d638);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+
+.item{
+    padding: 20px;
+}
+
+.item-a{
+    grid-column-start: 1;
+}
+
+.item-b{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.item-c{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+
+ #carrossel{
+     padding-bottom: 30px;
+ }
+
+.card mb-3{
+    justify-self: start;
+}
+
+.interviews{
+    background-image: linear-gradient(to bottom right, #d62b2b, #e7d638);
+    color: white;
+    width: 100%;
+}
+
+.data{
+    padding-left: 10px;
+    display: inline;
+}
+
+.header__logo{
+    width: auto;
+    height: auto;
+}
+
+.header__icon{
+    display: none;
+}
+.logotipo{
+    max-width: 100%;
+}
+
+.input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border: none !important;
+}
+
+.header{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color:#1C1C1C;
+    height: 60px;
+}
+
+.header__menu a{
+    font-size: 14pt;
+    height: 14pt;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid white;
+}
+
+.navbar-nav li:first-child > a{
+    border-left: none;
+}
+
+.navbar__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.navbar__search input[type="search"]{
+    box-sizing: border-box;
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.7) !important;
+}
+
+::-moz-placeholder{
+    color: white;
+}
+
+::-ms-input-placeholder{
+    color: white;
+}
+
+/* /\ Navbar /\ */
+
+.dropdown button[type="button"]{
+    background: rgba(235, 7, 7, 0);
+    border: 2px solid #d62b2b;
+    color:  #d62b2b;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.carousel-inner .content-film{
+    margin: 0 5rem 4rem 5rem;
+    padding: 0 80px 0 80px;
+    display: flex;
+}
+
+.carousel-indicators{
+    justify-content: center;
+}
+
+.carregar{
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.carregar-1{
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.carregar-2{
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.subtitulos{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.subtitle-1{
+    grid-column-start: 1;
+}
+
+.subtitle-2{
+    grid-column-start: 2;
+}
+
+.subtitulo-1{
+    padding-top: 30px;
+}
+
+.subtitulo-2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+.dstq{
+    padding-bottom: 20px;
+}
+
+.cover {
+    object-fit: cover;
+    width: 50px;
+    height: 100px;
+  }
+
+/* Footer */
+
+.footer{
+    margin-top: 20px;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+
+    .carregar{
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carregar-1{
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carregar-2{
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-film{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .card{
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .navbar__search{
+        width: 100%;
+    }
+
+    .carousel-inner{
+        padding-bottom: 30px;
+    }
+
+    .texto{
+        font-size: 12pt;
+    }
+
+    .fonte{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1300px){
+
+    .fonte{
+        padding-top: 30px;
+    }
+
+    .card{
+        margin: 0 auto;
+    }
+}
+
+/* Fonte */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .fonte{
+        font-size: 14px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .fonte{
+        font-size: 12px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .fonte{
+        font-size: 10px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .fonte{
+        font-size: 9px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .fonte{
+        font-size: 7px;
+    }
+}
